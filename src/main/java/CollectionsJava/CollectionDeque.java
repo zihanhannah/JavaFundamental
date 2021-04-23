@@ -24,7 +24,7 @@ class CollectionDeque {
             System.out.print(p.getName());
         }
         System.out.println();
-//        .pollFirst() , .pollLast() remove elements from front or end
+//        .pollFirst() , .pollLast() remove elements from front or end and return the element
         Product tea = menu.pollFirst();
 
 //        .peekFirst() .peekLast() get element at the head or tail, doing nothing with the element
